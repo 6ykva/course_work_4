@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "c-w-4"
+version = "0.1.0"
+description = ""
+authors = ["alexandr <6ykva.izh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
